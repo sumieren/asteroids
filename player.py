@@ -28,11 +28,6 @@ class Player(CircleShape):
         if keys[pygame.K_SPACE]:
             self.shoot()
 
-        print(self.shot_delay)
-
-
-        
-
     def draw(self, screen):
         pygame.draw.polygon(screen, "white", self.triangle(), 2)
 
