@@ -27,6 +27,7 @@ def main():
 
         screen.fill(0)
 
+        player.update(dt)
         player.draw(screen)
 
         #draw the screen and pause until 1/60th of a second
